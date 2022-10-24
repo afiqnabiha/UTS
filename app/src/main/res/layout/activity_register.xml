@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg_theme"
+    android:orientation="vertical"
+    tools:context=".RegisterActivity">
+
+    <ImageView
+        android:layout_width="128dp"
+        android:layout_height="129dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="50dp"
+        android:src="@drawable/najwa" />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="5dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="20dp">
+
+        <EditText
+            android:id="@+id/inputNama"
+            android:layout_width="match_parent"
+            android:layout_height="52dp"
+            android:layout_marginBottom="15dp"
+            android:background="@color/white"
+            android:hint="Nama"
+            android:inputType="textPersonName"
+            android:padding="15dp"
+            android:textColor="@android:color/black"
+            android:textColorHint="@android:color/black"
+            android:textSize="15dp" />
+
+        <EditText
+            android:id="@+id/inputUser"
+            android:layout_width="match_parent"
+            android:layout_height="52dp"
+            android:layout_marginBottom="15dp"
+            android:background="@color/white"
+            android:hint="Username"
+            android:inputType="text"
+            android:padding="15dp"
+            android:textColor="@android:color/black"
+            android:textColorHint="@android:color/black"
+            android:textSize="15dp" />
+
+        <EditText
+            android:id="@+id/inputPass"
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:layout_marginBottom="15dp"
+            android:background="@color/white"
+            android:hint="Password"
+            android:inputType="textPassword"
+            android:padding="15dp"
+            android:textColor="@android:color/black"
+            android:textColorHint="@android:color/black"
+            android:textSize="15dp" />
+
+        <Button
+            android:id="@+id/btnDaftar"
+            android:layout_width="match_parent"
+            android:layout_height="39dp"
+            android:layout_marginBottom="15dp"
+            android:background="@drawable/bg_button"
+            android:text="Daftar"
+            android:textColor="@android:color/white"
+            android:textSize="16sp" />
+
+        <Button
+            android:id="@+id/btnLogin"
+            android:layout_width="match_parent"
+            android:layout_height="43dp"
+            android:layout_marginBottom="15dp"
+            android:background="@drawable/bg_button"
+            android:text="Login"
+            android:textColor="@android:color/white"
+            android:textSize="16sp" />
+    </LinearLayout>
+</LinearLayout>
